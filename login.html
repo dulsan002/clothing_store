@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velvet Vogue || Login</title>
+  <link rel="icon" type="image/x-icon" href="images/icon.ico">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="login-section">
+    <div class="login-container">
+
+     <div class="form-box login">
+        <form class="login-form" action="">
+          <h1>Login</h1>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required>
+           <i  class="ri-user-line"></i>
+          </div>
+         <div class="input-box">
+            <input type="password" placeholder="Password" required>
+            <i class="ri-lock-password-line"></i>
+          </div>
+          <div class="forget-link">
+           <a href="#">Forgot Password</a>
+          </div>
+          <button type="submit" class="login-btn">Login</button>
+         <p>or login with social platforms</p>
+          <div class="social-icons">
+            <a href="#"><i class="ri-google-line"></i></a>
+            <a href="#"><i class="ri-facebook-line"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-box register">
+        <form class="login-form" action="">
+          <h1>Registration</h1>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required>
+           <i  class="ri-user-line"></i>
+          </div>
+          <div class="input-box">
+            <input type="email" placeholder="Email" required>
+           <i class="ri-mail-line"></i>
+          </div>
+         <div class="input-box">
+            <input type="password" placeholder="Password" required>
+            <i class="ri-lock-password-line"></i>
+          </div>
+          
+          <button type="submit" class="login-btn">Register</button>
+         <p>or register with social platforms</p>
+          <div class="social-icons">
+            <a href="#"><i class="ri-google-line"></i></a>
+            <a href="#"><i class="ri-facebook-line"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+
+          </div>
+        </form>
+      </div>
+
+      <div class="toggle-box">
+        <div class="toggle-panel toggle-left"> 
+          <h1>Hello, welcome!</h1>
+          <p>Don't have an account?</p>
+          <button class="toggle-btn" id="btn-register">Register</button>
+        </div>
+
+        <div class="toggle-panel toggle-right"> 
+          <h1>Welcome Back!</h1>
+          <p>Already have an account.</p>
+          <button class="toggle-btn" id="btn-login">Login</button>
+        </div>
+
+      </div>
+   </div>
+  </section>
+  
+  <script src="login.js"> </script>
+</body>
+</html>

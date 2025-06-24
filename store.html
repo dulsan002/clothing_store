@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velvet Vogue || Store</title>
+  <link rel="icon" type="image/x-icon" href="images/icon.ico">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav >
+    <div class="nav-header">
+    <div class="nav-logo">
+      <a href="index.html">Velvet Vogue</a>
+    </div>
+    <div class="nav-menu-btn" id="menu-btn">
+      <i class="ri-menu-line"></i>
+    </div>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="store.html">Catalogue</a></li>
+      <li><a href="index.html#fashion">Sale</a></li>
+      <li><a href="index.html#favourite">Favourite</a></li>
+      <li><a href="index.html#new-arrival">New Arrivals</a></li>
+      <li>
+        <button class="btn signup-btn" onclick="location.href='login.html'">Sign Up</button>
+      </li>
+    </ul>
+  </nav>
+  
+  <section class="store-container">
+    <div class="store-nav">
+      <div class="nav-wrapper">
+      <ul class="nav-bar">
+        <li>Men</li>
+        <li>Women</li>
+        <li>Kid</li>
+        <li>All</li>
+      </ul>
+    </div>
+    <div class="shopping-holder">
+     <div id="shopping-cart">
+      <i class="ri-shopping-bag-line"></i>
+      <span class="cart-item-count"></span>
+    </div>
+    </div>
+    </div>
+  </section>
+  
+  <div class="cart">
+    <h2 class="cart-title">Your Cart</h2>
+    <div class="cart-content">
+      <!-- <div class="cart-box">
+        <img src="dress/women/1.1.jpg" alt="cart-img">
+        <div class="cart-detail">
+          <h2 class="cart-product-title">Casul Womens Jeans</h2>
+          <span class="cart-price">$100</span>
+          <div class="cart-quantity">
+            <button id="decrement">-</button>
+            <span class="number">1</span>
+            <button id="increament">+</button>
+          </div>
+        </div>
+        <i class="ri-delete-bin-line cart-remove"></i>
+      </div> -->
+    </div>
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">$0</div>
+    </div>
+    <button class="btn-buy">Buy Now</button>
+    <i class="ri-close-line" id="cart-close"></i>
+  </div>
+
+
+  <section class="store-item">
+    <div class="item-card" data-category="women">
+      <div class="item-image">
+        <img src="dress/women/1.1.jpg" alt="" class="image1 active">
+        <img src="dress/women/1.2.jpg" alt="" class="image2">
+        <img src="dress/women/1.3.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">318 Shaping Wide Leg Women's Jeans</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line" id="add-cart"></i>
+        </div>
+        </div>
+      </div>
+ 
+
+    <div class="item-card" data-category="men">
+      <div class="item-image">
+        <img src="dress/mens/dress1.1.jpg" alt="" class="image1 active">
+        <img src="dress/mens/dress1.2.jpg" alt="" class="image2">
+        <img src="dress/mens/dress1.3.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Barstow Western Denim Shirt</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line" id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+  
+
+   <div class="item-card" data-category="men">
+      <div class="item-image">
+        <img src="dress/mens/dress2.1.jpg" alt="" class="image1 active">
+        <img src="dress/mens/dress2.2.jpg" alt="" class="image2">
+        <img src="dress/mens/dress2.3.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Classic Standard Fit Western Shirt</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line" id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+
+    <div class="item-card" data-category="men">
+      <div class="item-image">
+        <img src="dress/mens/dress3.1.jpg" alt="" class="image1 active">
+        <img src="dress/mens/dress3.2.jpg" alt="" class="image2">
+        <img src="dress/mens/dress3.3.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Trucker Jacket</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+    <div class="item-card" data-category="men">
+      <div class="item-image">
+        <img src="dress/mens/dress4.1.jpg" alt="" class="image1 active">
+        <img src="dress/mens/dress4.2.jpg" alt="" class="image2">
+        <img src="dress/mens/dress4.3.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">445 Athletic 10" Men's Shorts</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+       <div class="item-card" data-category="men">
+      <div class="item-image">
+        <img src="dress/mens/dress5.1.jpg" alt="" class="image1 active">
+        <img src="dress/mens/dress5.2.jpg" alt="" class="image2">
+        <img src="dress/mens/dress5.3.jpg" alt="" class="image3">
+        <img src="dress/mens/dress5.4.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">445 Athletic 10" Men's Shorts</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+      <div class="item-card" data-category="women">
+      <div class="item-image">
+        <img src="dress/women/dress.2.1.jpg" alt="" class="image1 active">
+        <img src="dress/women/dress.2.2.jpg" alt="" class="image2">
+        <img src="dress/women/dress.2.3.jpg" alt="" class="image3">
+        <img src="dress/women/dress.2.4.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Wedgie Straight Fit Women's Jeans</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+      
+      <div class="item-card" data-category="women">
+      <div class="item-image">
+        <img src="dress/women/dress.3.1.jpg" alt="" class="image1 active">
+        <img src="dress/women/dress.3.2.jpg" alt="" class="image2">
+        <img src="dress/women/dress.3.3.jpg" alt="" class="image3">
+        <img src="dress/women/dress.3.4.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Bettina Dress</h4>
+       <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+      <div class="item-card" data-category="women">
+      <div class="item-image">
+        <img src="dress/women/dress.4.1.jpg" alt="" class="image1 active">
+        <img src="dress/women/dress.4.2.jpg" alt="" class="image2">
+        <img src="dress/women/dress.4.3.jpg" alt="" class="image3">
+        <img src="dress/women/dress.4.4.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Sarina Long Sleeve Midi Dress</h4>
+       <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+      <div class="item-card" data-category="women">
+      <div class="item-image">
+        <img src="dress/women/dress.5.1.jpg" alt="" class="image1 active">
+        <img src="dress/women/dress.5.2.jpg" alt="" class="image2">
+        <img src="dress/women/dress.5.3.jpg" alt="" class="image3">
+        <img src="dress/women/dress.5.4.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Cynthia Midi Dress</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+      <div class="item-card" data-category="kid">
+      <div class="item-image">
+        <img src="dress/kids/dress1.1.jpg" alt="" class="image1 active">
+        <img src="dress/kids/dress1.2.jpg" alt="" class="image2">
+        <img src="dress/kids/dress1.3.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Husky Slim Fit Jeans</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+      <div class="item-card" data-category="kid">
+      <div class="item-image">
+        <img src="dress/kids/dress2.1.jpg" alt="" class="image1 active">
+        <img src="dress/kids/dress2.2.jpg" alt="" class="image2">
+        <img src="dress/kids/dress2.3.jpg" alt="" class="image3">
+        <img src="dress/kids/dress2.4.jpg" alt="" class="image3">
+      </div>
+      <div class="item-content">
+        <h4 class="item-title">Husky Slim Fit Jeans</h4>
+        <div class="price-tag">
+        <span class="price">$49.00</span>
+        <i class="ri-shopping-bag-3-line"  id="add-cart"></i>
+        </div>
+      </div>
+      </div>
+
+  </section>
+
+  <section class="banner">
+    <div class="banner-container">
+      <img src="brand_banners/gucci.png" alt="Gucci ">
+      <img src="brand_banners/calvin_klein.png" alt="calvin_klein ">
+      <img src="brand_banners/lacoste.jpg" alt="lacoste">
+      <img src="brand_banners/levi's.jpg" alt="levi's">
+      <img src="brand_banners/polo.jpg" alt="polo">
+      <img src="brand_banners/tommy.jpg" alt="tommy">
+      <img src="brand_banners/versace.jpg" alt="versace">
+    </div>
+  </section>
+
+  
+  <footer>
+    <div class="section-container footer-container">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <a href="#">Velver vogue</a>
+        </div>
+        <p>Complete Your style with awesome cloths from us</p>
+      
+      <ul class="footer-socials">
+        <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+        <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+        <li><a href="#"><i class="ri-twitter-x-fill"></i></a></li>
+      </ul>
+     </div>
+
+     <div class="footer-col">
+      <h4> Company</h4>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contract Us</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+     </div>
+
+     <div class="footer-col">
+      <h4> Quick links</h4>
+      <ul class="footer-links">
+        <li><a href="#">Our Location</a></li>
+        <li><a href="#">Order tracking</a></li>
+        <li><a href="#">Size guide</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+     </div>
+
+     <div class="footer-col">
+      <h4> Company</h4>
+      <ul class="footer-links">
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">privacy Policy</a></li>
+      </ul>
+     </div>
+
+     <div class="footer-bar">
+      Copyright © 2025 Janith . All Rights reserved
+     </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="app.js"></script>
+</body>
+</html>
